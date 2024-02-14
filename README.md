@@ -2,4 +2,4 @@
 
 <p> Criar uma lista de opções e escolher apenas uma dentre as opções disponiveis</p>
 
-<img src="./src/img/Captura de Tela (2541).png"/>
+<img src="./src/img/tela.png"/>
