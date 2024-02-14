@@ -1,20 +1,20 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-radio-group value="strawberries">
+    <ion-list-header>Radio button</ion-list-header>
+    <ion-item>
+      <ion-label>Opção1</ion-label>
+   <ion-radio color="danger" checked="true"></ion-radio>
+    </ion-item>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-item>
+      <ion-label>Opção2</ion-label>
+   <ion-radio color="dark" desabled="false"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Opção3</ion-label>
+   <ion-radio color="secondary" desabled="false"></ion-radio>
+    </ion-item>
+  </ion-radio-group>
 </ion-content>
